@@ -1,4 +1,4 @@
-
+#from our lord and savior /u/p00rleno
 #r/leagueoflegends flair counter script
 #For python 2.6.6
  
