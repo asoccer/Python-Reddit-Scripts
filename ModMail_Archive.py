@@ -20,7 +20,7 @@ f = open("ModMailDemo.txt","w") #Create and Write to
 f.write("Author | Subject | Permalink |Date\n---|---|----|----\n") #You're going to be posting the dump in the Wiki and don't need to doublespace
 USER = input('Type User Name\n')
 PASSWORD = input('Type Your Password | NOTE THIS DOESNT SEND OR SAVE THE PASSWORD ANYWHERE\n')
-SUBREDDIT = input('Input the Subreddit You Wish to archive | YOU MUST HAVE MAIL PRIVS TO DO THIS')
+SUBREDDIT = input('Input the Subreddit You Wish to archive | YOU MUST HAVE MAIL PRIVS TO DO THIS\n')
 r.login(USER,PASSWORD) #Use your damn creds "dankflute","123456"
 
 redd = "https://www.reddit.com/message/messages/"
