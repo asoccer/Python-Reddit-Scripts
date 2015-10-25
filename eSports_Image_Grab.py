@@ -1,3 +1,5 @@
+import requests,json
+
 regions = ['226','225','230','229','231']
 for region in regions:
     r = requests.get('http://na.lolesports.com:80/api/standings.json?tournamentId='+ region) #Gets each regions team roster
